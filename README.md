@@ -22,32 +22,40 @@ Built with Python, Streamlit, NetworkX, and PyVis, this tool allows you to:
 🖼️ Demo Screenshot
 <img width="946" height="444" alt="image" src="https://github.com/user-attachments/assets/95745d93-c37a-48c6-a791-1ea25b029c54" />
 
+
+
 ⚙️Installation
 
-Clone this repository:
+1. Clone this repository:
 
 git clone https://github.com/Srushtib27/Minimum-Spanning-Tree-Visualizer.git
+
 cd Minimum-Spanning-Tree-Visualizer
 
 
-Create a virtual environment (recommended):
+2. Create a virtual environment (recommended):
 
 python -m venv venv
+
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 
-Install dependencies:
+3. Install dependencies:
 
 pip install streamlit networkx pyvis
 
+
+
 ▶️ Usage
 
-Run the Streamlit app:
+-Run the Streamlit app:
 
 streamlit run app.py
 
 
 Then open the URL shown in your terminal (usually http://localhost:8501) to use the MST Visualizer.
+
+
 
 🧮 Algorithms Implemented
 
@@ -57,13 +65,7 @@ Prim’s Algorithm → Greedy, vertex-growing approach.
 
 Both compute the Minimum Spanning Tree with minimum edge cost.
 
-🚀 Future Improvements
 
-Step-by-step animation of algorithm execution (edges highlighted one by one).
-
-Export MST results as JSON/CSV.
-
-Add support for directed graphs.
 
 📜 License
 
